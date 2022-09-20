@@ -1,0 +1,18 @@
+input{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  input:invalid {
+    border-color: red;
+  }
+  input,
+  input:valid {
+    border-color: #ccc;
+  }
+
+  .row{
+    display: flex;
+    justify-content: space-between;
+  }

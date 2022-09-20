@@ -1,0 +1,42 @@
+.userBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    min-height: 40px;
+    background-color: #f3e1f3;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.userText{
+    display: flex;
+    flex-direction: column;
+    height: 41px;
+    width: 380px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.userText:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+.user_content{
+    display: flex;
+    flex-direction: row;
+}
+
+.remove_button{
+    height: 30px;
+    width: 55px;
+    background-color: rgb(146, 29, 29);
+    border-radius: 10%;
+    color: white;
+}
