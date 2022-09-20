@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import classes from './ModalWindow.module.scss'
+import classes from './ModalWindow.module.css'
 import './ModalWindow.module.css'
 import { useState } from 'react';
 import MyInput from '../MyInput/MyInput';
